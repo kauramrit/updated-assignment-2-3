@@ -38,19 +38,8 @@ n=A+B
 n.sort()
 print(n)
 
+
 6.
-stack=["aa","bb","cc","dd"]
-stack.append("kaur")
-stack.append("amrit")
-print(stack.pop())
-print(stack)
-
-q1=deque(["am","tt","ee","jj"])
-q1.append("amrit")
-print(q1.popleft())
-
-
-7.
 c=0;
 b=0;
 a=[12,4,7,9,5]
@@ -63,31 +52,31 @@ print("even no =",c)
 print("odd no =",b)
 
 
-8.
+7.
 # Print tuple in reverse order
 a=('apple','banana','mango','orange','cherry')
 print(a[ ::-1])
 
 
-9.
+8.
 # Find largest and smallest element in a tuple
 print("largest element",max(a))
 print("Smallest element",min(a));
 
 
-10.
+9.
 # Convert a string into Uppercase
 a=input("enter string")
 print(a.upper())
 
 
-11.
+10.
 # Check if string contains all numeric characters
 a=input("enter string")
 print(a.isnumeric())
 
 
-12.
+11.
 # Replace the word "World" with your name in string "Hello World"
 c="Hello World"
 d=c.replace("World","Amrit")
