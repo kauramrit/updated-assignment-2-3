@@ -23,16 +23,9 @@ print(b)
 s="Acadview"
 course="Python"
 fees=5000
-print('s="%s"' %"Acadview")
-print('course="%s"'%"Python")
-print('fees=%d'%5000)
+print("%s %s %d"%(s,course,fees))
 
 6.
-name="Tony Stark"
-salary=1000000
-print('%s''%d' %(name,salary))
-
-7.
 # Find area of circle
 r=int(input("enter the radius :"))
 area=3.14*r*r
